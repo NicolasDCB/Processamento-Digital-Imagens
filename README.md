@@ -17,7 +17,7 @@ O projeto está estruturado da seguinte forma:
 
 ---
 
-## 🛠️ Funcionalidades e Filtros
+##  Funcionalidades e Filtros
 
 As funções implementadas podem ser acessadas através da interface do usuário e estão codificadas na pasta `/Ex PDI`. Abaixo, a descrição de cada funcionalidade:
 
