@@ -1,0 +1,198 @@
+object Form1: TForm1
+  Left = 2046
+  Height = 1165
+  Top = 231
+  Width = 1202
+  Caption = 'Form1'
+  ClientHeight = 1165
+  ClientWidth = 1202
+  DesignTimePPI = 144
+  LCLVersion = '4.4.0.0'
+  object Image1: TImage
+    Left = 208
+    Height = 135
+    Top = 144
+    Width = 135
+  end
+  object Image2: TImage
+    Left = 528
+    Height = 135
+    Top = 144
+    Width = 135
+  end
+  object BtnCarregar: TButton
+    Left = 384
+    Height = 45
+    Top = 272
+    Width = 113
+    Caption = 'Carregar'
+    TabOrder = 0
+    OnClick = BtnCarregarClick
+  end
+  object BtnInverter: TButton
+    Left = 208
+    Height = 45
+    Top = 384
+    Width = 113
+    Caption = 'Inverter'
+    TabOrder = 1
+    OnClick = BtnInverterClick
+  end
+  object BtnSobel: TButton
+    Left = 208
+    Height = 45
+    Top = 448
+    Width = 113
+    Caption = 'Sobel'
+    TabOrder = 2
+    OnClick = BtnSobelClick
+  end
+  object EditLimiar: TEdit
+    Left = 296
+    Height = 33
+    Top = 832
+    Width = 120
+    TabOrder = 3
+    Text = '127'
+    OnChange = EditLimiarChange
+  end
+  object BtnBinarizar: TButton
+    Left = 208
+    Height = 45
+    Top = 512
+    Width = 113
+    Caption = 'Binarizar'
+    TabOrder = 4
+    OnClick = BtnBinarizarClick
+  end
+  object BtnLimiar: TButton
+    Left = 208
+    Height = 45
+    Top = 576
+    Width = 113
+    Caption = 'Limiar'
+    TabOrder = 5
+    OnClick = BtnLimiarClick
+  end
+  object BtnLaplaciano: TButton
+    Left = 360
+    Height = 45
+    Top = 384
+    Width = 121
+    Caption = 'Laplaciano'
+    TabOrder = 6
+    OnClick = BtnLaplacianoClick
+  end
+  object BtnRuido: TButton
+    Left = 352
+    Height = 45
+    Top = 192
+    Width = 169
+    Caption = 'Gerar Ruído (10%)'
+    TabOrder = 7
+    OnClick = BtnRuidoClick
+  end
+  object BtnMedia: TButton
+    Left = 360
+    Height = 45
+    Top = 448
+    Width = 121
+    Caption = 'Filtro Média'
+    TabOrder = 8
+    OnClick = BtnMediaClick
+  end
+  object BtnMediana: TButton
+    Left = 360
+    Height = 45
+    Top = 512
+    Width = 121
+    Caption = 'Filtro Mediana'
+    TabOrder = 9
+    OnClick = BtnMedianaClick
+  end
+  object BtnEqualizar: TButton
+    Left = 360
+    Height = 45
+    Top = 576
+    Width = 121
+    Caption = 'Equalizar'
+    TabOrder = 10
+    OnClick = BtnEqualizarClick
+  end
+  object BtnEscala: TButton
+    Left = 208
+    Height = 45
+    Top = 656
+    Width = 160
+    Caption = 'Escala Dinâmica'
+    TabOrder = 11
+    OnClick = BtnEscalaClick
+  end
+  object EditC: TEdit
+    Left = 296
+    Height = 33
+    Top = 776
+    Width = 120
+    TabOrder = 12
+    Text = '1'
+    OnChange = EditCChange
+  end
+  object EditGama: TEdit
+    Left = 296
+    Height = 33
+    Top = 728
+    Width = 120
+    TabOrder = 13
+    Text = '0.5'
+    OnChange = EditCChange
+  end
+  object Label1: TLabel
+    Left = 208
+    Height = 25
+    Top = 104
+    Width = 160
+    Caption = 'Imagem de Entrada:'
+  end
+  object Label2: TLabel
+    Left = 528
+    Height = 25
+    Top = 104
+    Width = 139
+    Caption = 'Imagem de Saída'
+    OnClick = Label2Click
+  end
+  object Edit1: TEdit
+    Left = 208
+    Height = 33
+    Top = 336
+    Width = 120
+    TabOrder = 14
+    Text = 'Funções:'
+    OnChange = Edit1Change
+  end
+  object Label3: TLabel
+    Left = 224
+    Height = 25
+    Top = 728
+    Width = 50
+    Caption = 'Gama:'
+  end
+  object Label4: TLabel
+    Left = 224
+    Height = 25
+    Top = 832
+    Width = 51
+    Caption = 'Limiar:'
+  end
+  object Label5: TLabel
+    Left = 240
+    Height = 25
+    Top = 784
+    Width = 15
+    Caption = 'C:'
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 720
+    Top = 176
+  end
+end
